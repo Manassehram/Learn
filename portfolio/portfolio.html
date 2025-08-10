@@ -1,72 +1,237 @@
-<!DOCTYPE >
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel = icon href="Images\sample.png" />
+    <title>Manasseh Otieno - Portfolio</title>
+    <link rel="icon" href="images/sample.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="portfolio.css" />
   </head>
-  <body>
-    <div class="sections" id = "about">
-      <h1>About me</h1>
-      <Ul>
-          <li href = > programming skills</li>
-          <li href = > web development</li>
-          <li href = > machine learning</li>  
-      </Ul>
-      <img
-        src="portfolio\Images\sample.png"
-        alt="My Image"
-        width="200"
-        height="200" />
-      <p>
-        Im an electric and electronics engineer power option passionate in
-        software development, machine learnong aplications engineering
-        applications such as matlab and web development. I have a strong interest
-        in creating innovative solutions that bridge the gap between hardware and
-        software. My goal is to leverage my engineering background to develop
-        efficient and user-friendly applications.
-      </p>
-    </div>
-    <h1>programming skills</h1>
-    <h1>web development</h1>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>JavaScript</li>
-      <li>React</li>
-    </ul>
-    <h2>web development projects</h2>
-    <ul>
-      <li>Portfolio website</li>
-      <li>E-commerce site</li>
-    </ul>
-    <h2>programming skils</h2>
-    <ul>
-      <li>Python</li>
-      <li>C++</li>
-      <li>Java</li>
-      <li>JavaScript</li>
-    </ul>
-    <h2>machine learning</h2>
-    <ul>
-      <li>Data Analysis</li>
-      <li>Model Development</li>
-      <li>Deep Learning</li>
-    </ul>
-    <p>TensorFlow, PyTorch, Scikit-learn</p>
-    <h2>machine learning projects</h2>
-    <ul>
-      <li>Image Classification</li>
-      <li>Natural Language Processing</li>
-      <li>Predictive Analytics</li>
-    </ul>
-    <a href="https://github.com/Manassehram/Machine_Learning.git">Github</a>
-    <h2>engineering applications</h2>
-    <p>MATLAB, Simulink</p>
-    <h2>contact</h2>
-    <a href="mailto:manasehram9@gmail.com">Email</a>
-    <p>icon for whatsapp</p>
+  <body data-theme="dark">
+    <header>
+      <div class="container">
+        <div class="header-content">
+          <div class="header-text">
+            <h1>Manasseh Otieno</h1>
+            <p>
+              Power Electrical & Electronics Graduate Engineer | Software
+              Developer | Machine Learning Enthusiast
+            </p>
+          </div>
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle theme">
+            <i class="fas fa-sun" id="themeIcon"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="images/sample.png" alt="Manasseh Otieno" />
+          </div>
+          <div class="about-text">
+            <p>
+              I'm an Electrical and Electronics Engineer (Power Option)
+              passionate about software development, machine learning
+              applications, MATLAB, and web development. I aim to bridge the gap
+              between hardware and software by building user-friendly, efficient
+              solutions that make a real impact in the world of technology.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3><i class="fas fa-code"></i> Programming Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>C++</li>
+              <li>Java</li>
+              <li>MATLAB</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3><i class="fas fa-globe"></i> Web Development</h3>
+            <ul>
+              <li>HTML, CSS, JavaScript</li>
+              <li>React</li>
+              <li>Responsive Design</li>
+              <li>Frontend Optimization</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+            <ul>
+              <li>TensorFlow, PyTorch</li>
+              <li>Scikit-learn</li>
+              <li>YOLO-Object detection</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3><i class="fas fa-tools"></i> Engineering Tools</h3>
+            <ul>
+              <li>MATLAB</li>
+              <li>Simulink</li>
+              <li>Power Systems Analysis</li>
+              <li>Programmable Logic Circuiting</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <div class="project-category">
+            <h3><i class="fas fa-laptop-code"></i> Web Development</h3>
+            <ul class="project-list">
+              <li><a href="portfolio.html">Portfolio Website</a></li>
+              <li>E-commerce Site</li>
+              <! -- replace with actual project link -->
+              <li>Responsive Web Applications</li>
+            </ul>
+          </div>
+          <div class="project-category">
+            <h3><i class="fas fa-robot"></i> Machine Learning</h3>
+            <ul class="project-list">
+              <li>Image Classification</li>
+              <li>Object Detection with YOLO</li>
+            </ul>
+          </div>
+          <div class="project-category">
+            <h3><i class="fas fa-bolt"></i> Engineering Projects</h3>
+            <ul class="project-list">
+              <li>Power System Simulation</li>
+              <li>Control System Design</li>
+              <li>MATLAB Applications</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email</h3>
+            <a href="mailto:manasehram9@gmail.com">manasehram9@gmail.com</a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <h3>GitHub</h3>
+            <a
+              href="https://github.com/Manassehram/Machine_Learning.git"
+              target="_blank"
+              rel="noopener">
+              View My Projects
+            </a>
+          </div>
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fab fa-whatsapp"></i>
+            </div>
+            <h3>WhatsApp</h3>
+            <a href="https://wa.me/254704281032" target="_blank" rel="noopener">
+              +254 704 281 032
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Manasseh Otieno. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script>
+      // Theme toggle functionality
+      const themeToggle = document.getElementById("themeToggle");
+      const themeIcon = document.getElementById("themeIcon");
+      const body = document.body;
+
+      // Check for saved theme preference or default to 'dark'
+      const savedTheme = localStorage.getItem("theme") || "dark";
+      body.setAttribute("data-theme", savedTheme);
+      updateThemeIcon(savedTheme);
+
+      themeToggle.addEventListener("click", () => {
+        const currentTheme = body.getAttribute("data-theme");
+        const newTheme = currentTheme === "dark" ? "light" : "dark";
+
+        body.setAttribute("data-theme", newTheme);
+        localStorage.setItem("theme", newTheme);
+        updateThemeIcon(newTheme);
+      });
+
+      function updateThemeIcon(theme) {
+        if (theme === "dark") {
+          themeIcon.className = "fas fa-sun";
+        } else {
+          themeIcon.className = "fas fa-moon";
+        }
+      }
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+          const target = document.querySelector(this.getAttribute("href"));
+          if (target) {
+            target.scrollIntoView({
+              behavior: "smooth",
+              block: "start",
+            });
+          }
+        });
+      });
+
+      // Add scroll-triggered animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: "0px 0px -50px 0px",
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = "1";
+            entry.target.style.transform = "translateY(0)";
+          }
+        });
+      }, observerOptions);
+
+      // Observe all sections
+      document.querySelectorAll(".section").forEach((section) => {
+        section.style.opacity = "0";
+        section.style.transform = "translateY(30px)";
+        section.style.transition = "opacity 0.8s ease, transform 0.8s ease";
+        observer.observe(section);
+      });
+    </script>
   </body>
 </html>
